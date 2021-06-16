@@ -1,0 +1,253 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -20px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -20px;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+
+/* ==================== Background images ======================== */
+
+.bg-home1-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/images/Backgrounds/b4.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-home2-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/images/Backgrounds/b5.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-about-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/images/Backgrounds/b13.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-support-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/images/Backgrounds/b14.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-kit-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/images/Backgrounds/b7.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-race-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/images/Backgrounds/b20.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-performance-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/images/Backgrounds/b23.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-sport-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/images/Backgrounds/b29.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-commuter-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/Backgrounds/b30.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-family-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/images/Backgrounds/b17.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-shortTerm-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/Backgrounds/b6.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* ==================== Background Colors ======================== */
+.bg-race-color {
+  background: #323338;
+  background: -webkit-linear-gradient(top left, #323338, #98639A);
+  background: -moz-linear-gradient(top left, #323338, #98639A);
+  background: linear-gradient(to bottom right, #323338, #98639A);
+}
+
+.bg-performance-color {
+  background: rgb(63,94,251);
+  background: linear-gradient(210deg, rgba(63,94,251,1) 0%, rgba(29,47,30,1) 100%);
+}
+
+.bg-sport-color {
+  background: rgba(192, 102, 147, 1.0);
+  background: -webkit-linear-gradient(top left, rgba(192, 102, 147, 1.0), rgba(54, 137, 86, 1.0));
+  background: -moz-linear-gradient(top left, rgba(192, 102, 147, 1.0), rgba(54, 137, 86, 1.0));
+  background: linear-gradient(to bottom right, rgba(192, 102, 147, 1.0), rgba(54, 137, 86, 1.0));
+}
+
+.bg-commuter-color {
+  background: rgba(110, 32, 254, 1.0);
+  background: -webkit-linear-gradient(top left, rgba(110, 32, 254, 1.0), rgba(141, 55, 85, 1.0));
+  background: -moz-linear-gradient(top left, rgba(110, 32, 254, 1.0), rgba(141, 55, 85, 1.0));
+  background: linear-gradient(to bottom right, rgba(110, 32, 254, 1.0), rgba(141, 55, 85, 1.0));
+}
+
+.bg-family-color {
+  background: rgba(180, 59, 48, 1.0);
+  background: -webkit-linear-gradient(top left, rgba(180, 59, 48, 1.0), rgba(234, 63, 227, 1.0));
+  background: -moz-linear-gradient(top left, rgba(180, 59, 48, 1.0), rgba(234, 63, 227, 1.0));
+  background: linear-gradient(to bottom right, rgba(180, 59, 48, 1.0), rgba(234, 63, 227, 1.0));
+}
+
+.bg-shortTerm-color {
+  background: rgba(131, 67, 106, 1.0);
+  background: -webkit-linear-gradient(top left, rgba(131, 67, 106, 1.0), rgba(177, 140, 213, 1.0));
+  background: -moz-linear-gradient(top left, rgba(131, 67, 106, 1.0), rgba(177, 140, 213, 1.0));
+  background: linear-gradient(to bottom right, rgba(131, 67, 106, 1.0), rgba(177, 140, 213, 1.0));
+}
