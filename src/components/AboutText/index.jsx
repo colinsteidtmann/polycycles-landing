@@ -83,7 +83,7 @@ export const AboutText = () => {
 			<h5 className="fw-normal mt-5">
 				<strong>Background: </strong> 
 			</h5>
-			<p className="fw-light">
+			<p className="fw-light ms-3">
 				We launched this company in June 2021 because we were tired of soaring 
 				bike prices that made trying, buying, and owning bikes unaffordable (for us at least). 
 				With bikes and wheelsets that cost multiples of thousands, there's a pretty 
@@ -119,7 +119,7 @@ export const AboutText = () => {
 				Bike More, Drive Less!
 				</span>
 			</h5>
-			<p><small> Seriously, do it for your health, do it for the planet, do it for your children, do it for your lasting legacy. </small></p>
+			<p class="fw-light ms-3"><small> Seriously, do it for your health, do it for the planet, do it for your children, do it for your lasting legacy. </small></p>
 
 			<hr/>
 			<h5 className="fw-normal pt-5" id="contact">
