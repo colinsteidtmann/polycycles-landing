@@ -6,9 +6,10 @@ export const sendSubscribe = async(props) => {
 	try {
 		const response = await axios({
 			method: "post",
-			url: process.env.REACT_APP_TEST_API_URL + "sendSubscribe",
+			url: process.env.REACT_APP_API_URL + "sendSubscribe",
 			data: {
-				email: email			},
+				email: email			
+			},
 		});
 		return response;
 	} catch (err) {
