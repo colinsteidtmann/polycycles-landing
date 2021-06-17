@@ -1,29 +1,29 @@
 import React from "react";
-import {IconList} from "#components";
+import { IconList } from "#components";
 
 export const EmployeeCard = (props) => {
-	const {employee} = props;
-	return (
-		<div class="card w-100 h-100">
+    const { employee } = props;
+    return (
+        <div className="card w-100 h-100">
 			<img 
 				src={employee.profilePic} 
-				class="card-img-top" 
+				className="card-img-top" 
 				alt="..." 
 				style={{ "min-height": "30vh", objectFit: "cover" }}
 			/>
-			<div class="card-body">
-				<h5 class="card-title fw-normal">
+			<div className="card-body">
+				<h5 className="card-title fw-normal">
 					<strong>{employee.name} &#8212; </strong> 
 					<small> {employee.role}</small>
 				</h5>
-				<p class="card-text ">
+				<p className="card-text ">
 					{employee.about}
 				</p>
 				
 			</div>
-			<ul class="list-group list-group-flush">
-			  <li class="list-group-item">
-			  	<p class="fw-bold mb-0">
+			<ul className="list-group list-group-flush">
+			  <li className="list-group-item">
+			  	<p className="fw-bold mb-0">
 			  		Achievements
 			  	</p>
 			  	<IconList 
@@ -31,8 +31,8 @@ export const EmployeeCard = (props) => {
 			  		className="fa-ul fw-light mx-0"
 			  	/>
 			  </li>
-			  <li class="list-group-item">
-			  	<p class="fw-bold mb-0">
+			  <li className="list-group-item">
+			  	<p className="fw-bold mb-0">
 			  		Socials
 			  	</p>
 			  	<IconList 
@@ -42,7 +42,7 @@ export const EmployeeCard = (props) => {
 			  </li>
 			</ul>
 		</div>
-	);
+    );
 }
 
 export default EmployeeCard;

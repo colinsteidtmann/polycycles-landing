@@ -6,46 +6,65 @@ import { IconList } from "#components";
 export const KitRowCard = (props) => {
     const { kit, special } = props;
     return (
+        <div className="col-12 col-md-11 col-xl-9">
 
-        <div class="card w-100 h-100">
-        	<div class={"card-header py-2 text-white " + (kit.bgColorClass || "bg-secondary")}>
-				<h5 class="fw-normal my-auto text-center">
-					{kit.title}
-				</h5>
-        	</div>
-        	<div class="card-body bg-white text-start">
-        		<div class="row px-3">
-        			<div class="col-8">
-        				<p class="fw-light">
-        					{kit.description}
-        				</p>
+	        <div className="card w-100 h-100">
 
-        				<p class="fw-normal mb-0">Bike selection</p>
-        				<IconList list={kit.bikeTypes} />
+	        	<div className={"card-header py-2 text-white " + (kit.bgColorClass || "bg-secondary")}>
 
-        				{
-        					special &&
-        					<>
-        						<p class="fw-normal mb-0">Features</p>
-        						<IconList list={kit.features} />
-        					</>
-        				}
+					<h5 className="fw-normal my-auto text-center">
+						{kit.title}
+					</h5>
 
-        			</div>
-        			<div class="col-4 text-end py-4">
-        				<Link to={kit.to} class="btn btn-primary mb-3">
-        					View
-        				</Link>
-        				<br/>
-        				<button type="button" class="btn btn-outline-primary mb-3" disabled>
-        					{kit.price} 
-        				</button>
-        			</div>
-        		</div>
+	        	</div>
 
-        	</div>
-			<Link class="stretched-link" to={kit.to}/>
-		</div>
+	        	<div className="card-body bg-white text-start">
+
+	        		<div className="row px-0 px-lg-3">
+
+	        			<div className="col-12 col-lg-8">
+
+	        				<p className="fw-light">
+	        					{kit.description}
+	        				</p>
+
+	        				<p className="fw-normal mb-0">Bike selection</p>
+	        				
+	        				<IconList list={kit.bikeTypes} />
+
+	        				{
+	        					special &&
+	        					<React.Fragment>
+	        						<p className="fw-normal mb-0">Features</p>
+	        						<IconList list={kit.features} />
+	        					</React.Fragment>
+	        				}
+
+	        			</div>
+
+	        			<div className="col-12 col-lg-4 text-start text-lg-end py-4 py-md-2 py-lg-0">
+	        				
+	        				<Link to={kit.to} className="btn btn-primary mb-3 mb-md-2">
+	        					View
+	        				</Link>
+
+	        				<br/>
+
+	        				<button type="button" className="btn btn-outline-primary mb-3 mb-md-0" disabled>
+	        					{kit.price} 
+	        				</button>
+
+	        			</div>
+
+	        		</div>
+
+	        	</div>
+
+				<Link className="stretched-link" to={kit.to}/>
+
+			</div>
+    	</div>
+
     );
 }
 

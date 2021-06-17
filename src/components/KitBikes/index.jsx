@@ -1,12 +1,11 @@
 import React from "react";
 // Components
-import {BikeCard} from "./BikeCard.jsx";
+import { BikeCard } from "./BikeCard.jsx";
 
 export const KitBikes = (props) => {
-	const {bikesData} = props;
-	return (
-		<>
-			<div class="row justify-content-start m-3 gy-3">
+    const { bikesData } = props;
+    return ( <React.Fragment>
+        <div className="row justify-content-start gy-3">
 
 				{bikesData.map((bike, id) => (
 					<BikeCard
@@ -18,9 +17,8 @@ export const KitBikes = (props) => {
 					/>
 				))}
 				
-			</div>
-		</>
-	);	
+			</div> </React.Fragment>
+    );
 }
 
 export default KitBikes;

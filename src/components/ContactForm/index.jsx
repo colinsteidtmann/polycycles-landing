@@ -1,23 +1,22 @@
 import React from "react";
 // Components
 import FormikContact from "./FormikContact";
-import {MailSentDisplay, MailErrorDisplay} from "#components";
+import { MailSentDisplay, MailErrorDisplay } from "#components";
 // Hooks
-import {useApiForm} from "#hooks";
+import { useApiForm } from "#hooks";
 // Other imports
-import {formStatuses} from "#constants";
-import {sendContactForm} from "#api";
+import { formStatuses } from "#constants";
+import { sendContactForm } from "#api";
 
 export const ContactForm = (props) => {
-  const {title} = props;
-  const {displayState, ...otherVars} = useApiForm(sendContactForm);
-  return (
-  	<>
-  		<div className="row">
-  			
-  				<h3 className="fw-normal text-center my-3">
-  					{title}
-  				</h3>
+    const { title } = props;
+    const { displayState, ...otherVars } = useApiForm(sendContactForm);
+    return ( <React.Fragment>
+        <div className="row">
+        
+          <h3 className="fw-normal text-center my-3">
+            {title}
+          </h3>
           {
             (displayState === formStatuses.FORM) ? 
             <FormikContact {...otherVars} />
@@ -29,10 +28,10 @@ export const ContactForm = (props) => {
             <MailErrorDisplay {...otherVars} />
           }
 
-  		</div>
+      </div>
 
-  	</>
-  );
+        </React.Fragment>
+    );
 };
 
 export default ContactForm;

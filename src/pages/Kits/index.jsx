@@ -1,9 +1,9 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 // components
-import {PageBanner, KitColumnCard, LikeNothing} from "#components";
+import { PageBanner, KitColumnCard, LikeNothing } from "#components";
 // constants
-import {RaceKit, PerformanceKit, SportKit, CommuterKit, FamilyKit, ShortTermKit} from "#constants";
+import { RaceKit, PerformanceKit, SportKit, CommuterKit, FamilyKit, ShortTermKit } from "#constants";
 
 
 
@@ -11,25 +11,26 @@ import {RaceKit, PerformanceKit, SportKit, CommuterKit, FamilyKit, ShortTermKit}
 
 
 export const Kits = () => {
-	return(
-		<>
-			<div class="m-3">
+    return ( 
+    	<React.Fragment>
+        <div className="mx-1 m-md-3">
+
 
 				<PageBanner
 					bgImg="bg-kit-image"
 					text="Our Planned Kits"
-					cols="col-9"
+					cols="col-12 col-lg-11 col-xl-9"
 				/>
 
-				<div class="row mb-5">
+				<div className="row mb-5">
 
-					<div class="col-9 mx-auto mb-4">
+					<div className="col-12 col-lg-11 col-xl-9 mx-auto mb-4">
 						
-						<h4 class="fw-bold text-center my-4">
+						<h4 className="fw-bold text-center my-4">
 							Main Kits
 						</h4>
 
-						<div class="row justify-content-center gx-4 gy-3">
+						<div className="row justify-content-center gx-4 gy-3">
 
 							<KitColumnCard kit={RaceKit} />
 
@@ -43,13 +44,13 @@ export const Kits = () => {
 
 					</div>
 
-					<div class="col-9 mx-auto">
+					<div className="col-12 col-lg-9 mx-auto">
 						
-						<h4 class="fw-bold text-center my-4">
+						<h4 className="fw-bold text-center my-4">
 							Special Kits
 						</h4>
 
-						<div class="row justify-content-center gx-4 gy-3">
+						<div className="row justify-content-center gx-4 gy-3">
 
 							<KitColumnCard kit={FamilyKit} />
 
@@ -62,9 +63,9 @@ export const Kits = () => {
 				</div>
 
 				<LikeNothing />
-			</div>
-		</>
-	);
+			</div> 
+		</React.Fragment>
+    );
 }
 
 export default Kits;

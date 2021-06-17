@@ -1,9 +1,9 @@
-import {formStatuses} from "#constants";
+import { formStatuses } from "#constants";
 
 export const MailErrorDisplay = (props) => {
-	const {setDisplayState, title, body} = props;
-	return (
-		<div className="alert alert-dark">
+    const { setDisplayState, title, body } = props;
+    return (
+        <div className="alert alert-dark">
 			<h3 className="text-center mb-5">
 			  <i className="fas fa-exclamation-circle text-danger pe-3"></i>
 			  {title || "Uh oh! There was an error."}
@@ -17,7 +17,7 @@ export const MailErrorDisplay = (props) => {
 			  </button>
 			</div>
 		</div>
-	);
+    );
 };
 
 export default MailErrorDisplay;

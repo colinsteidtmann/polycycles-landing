@@ -1,9 +1,9 @@
-import {formStatuses} from "#constants";
+import { formStatuses } from "#constants";
 
 export const MailSentDisplay = (props) => {
-	const {setDisplayState, title, body, buttonText} = props;
-	return (
-		<div className="alert alert-primary">
+    const { setDisplayState, title, body, buttonText } = props;
+    return (
+        <div className="alert alert-primary">
 			<h3 className="text-center mb-5">
 			  <i className="fas fa-check-circle text-success pe-3"></i>
 			  {title || "Success, we got your message!"}
@@ -18,7 +18,7 @@ export const MailSentDisplay = (props) => {
 			</button>
 			</div>
 		</div>
-	);
+    );
 };
 
 export default MailSentDisplay;

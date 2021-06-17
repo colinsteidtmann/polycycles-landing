@@ -3,22 +3,22 @@ import React from "react";
 // React-bootstrap imports
 import Form from "react-bootstrap/Form";
 // Other imports
-import {Formik} from "formik";
+import { Formik } from "formik";
 import * as yup from "yup";
 
 
 // Validation
 const schema = yup.object().shape({
-	name:yup.string(),
-	email:yup.string().email().required("This is required"),
-	message:yup.string().required("This is required"),
+    name: yup.string(),
+    email: yup.string().email().required("This is required"),
+    message: yup.string().required("This is required"),
 });
 
 export const FormikContact = (props) => {
-	const {loading, handleSubmit} = props;
+    const { loading, handleSubmit } = props;
 
-	return (
-		<Formik
+    return (
+        <Formik
 			validationSchema={schema}
 			onSubmit={values => handleSubmit(values)}
 			initialValues={{
@@ -97,22 +97,21 @@ export const FormikContact = (props) => {
 					<button type="submit" className="btn btn-primary btn-lg mt-3">
 						{
 							(loading) ?
-							<> 
+							<React.Fragment> 
 								<span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
 								Wait...
-							</>
+							</React.Fragment>
 							:
-							<>
+							<React.Fragment>
 								Send
-							</>
+							</React.Fragment>
 						}
 					</button>
 
 				</Form>
 			)}
 		</Formik>
-	);
+    );
 };
 
 export default FormikContact;
-

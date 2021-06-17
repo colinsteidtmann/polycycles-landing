@@ -2,48 +2,48 @@ import React from "react";
 // Components
 
 const BikeComponent = (props) => {
-	const {label, info} = props;
-	return (
-	    <li class="list-group-item">
+    const { label, info } = props;
+    return (
+        <li className="list-group-item">
 
-	    	<div class="row text-start">
-		    	<div class="col-4">
+	    	<div className="row text-start">
+		    	<div className="col-4">
 		    		<strong>{label}</strong>
 		    	</div>
-		    	<div class="col-8">
+		    	<div className="col-8">
 		    		{info}
 		    	</div>
 	    	</div>
 	    	 
 	    </li>
-	);
+    );
 }
 
 export const BikeCard = (props) => {
-	const {
-		img, 
-		title, 
-		type,
-		retail,
-		src
-	} = props;
+    const {
+        img,
+        title,
+        type,
+        retail,
+        src
+    } = props;
 
-	return (
-		<div class="col-4">
+    return (
+        <div className="col-12 col-md-6 col-xl-4">
 
-			<div class="card h-100 w-100">
+			<div className="card h-100 w-100">
 
 			  <img 
 			  	src={img} 
-			  	class="card-img-top" 
+			  	className="card-img-top" 
 			  	alt="Bike image"
 			  />
 
-			  <div class="card-body">
-			    <h5 class="card-title">{title}</h5>
+			  <div className="card-body">
+			    <h5 className="card-title">{title}</h5>
 			  </div>
 
-			  <ul class="list-group list-group-flush">
+			  <ul className="list-group list-group-flush">
 
 			  	<BikeComponent 
 			  		label="Type:"
@@ -57,14 +57,14 @@ export const BikeCard = (props) => {
 
 			  </ul>
 
-			  <div class="card-body">
-			    <a href={src} class="card-link" target="_blank" rel="noopener noreferrer">View the bike online <i class="fas fa-external-link-alt"></i></a>
+			  <div className="card-body">
+			    <a href={src} className="card-link" target="_blank" rel="noopener noreferrer">View the bike online <i className="fas fa-external-link-alt"></i></a>
 			  </div>
 
 			</div>
 
 		</div>
-	);
+    );
 }
 
 export default BikeCard;

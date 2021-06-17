@@ -1,47 +1,47 @@
 import React from "react";
-import {ContactForm, ExpensesSpreadsheet} from "#components";
+import { ContactForm, ExpensesSpreadsheet } from "#components";
 import EmployeeCard from "./EmployeeCard.jsx";
-import {EmployeeInfo} from "#constants";
-import {Roadmap} from "#images/About";
+import { EmployeeInfo } from "#constants";
+import { Roadmap } from "#images/About";
 
 export const AboutText = () => {
-	return (
+    return (
 
-		<div class="col-9 text-start">
-			<h5 class="fw-normal">
+        <div className="col-12 col-md-10 col-xl-9 text-start py-5">
+			<h5 className="fw-normal">
 				<strong>Our Mission: </strong>
 			</h5>
-			<p class="fw-light ms-3">
+			<p className="fw-light ms-3">
 				Get more people riding bikes!
 			</p>
-			<h5 class="fw-normal">
+			<h5 className="fw-normal">
 				<strong>Our Vision: </strong> 
 			</h5>
-			<p class="fw-light ms-3">
+			<p className="fw-light ms-3">
 				Anybody who wants to bike, can bike. Cities are built around 
 				bikes and pedestrians instead of vehicles. The world is self-sustaining, the air is clean, people 
 				are healthy, and people are happy. 
 			</p>
-			<h5 class="fw-normal">
+			<h5 className="fw-normal">
 				<strong>Our Values: </strong> 
 			</h5>
-			<p class="fw-light ms-3">
+			<p className="fw-light ms-3">
 				Sustainability
-				<p class="text-secondary ms-2">
+				<p className="text-secondary ms-2">
 					Helping fight climate change and air pollution is a fundamental reason
 					for our existence. We promise to leave as little as a footprint as we can. 
 					We will try to deliver bikes with bikes, use eco-friendly/biodegradable 
 					cleaning products, and minimize all packaging.
 				</p>
 				Inclusion
-				<p class="text-secondary ms-2">
+				<p className="text-secondary ms-2">
 					Let's be honest. Bicycling, especially road cycling, is a pretty white, male 
 					dominated sport. It also tends to leave out those in lower economic classes. 
 					We promise to seek diverse team members, offer an affordable product, and support 
 					bicycling inclusion efforts. We want <em>as many people as possible</em> riding bikes.
 				</p>
 				Transparency
-				<p class="text-secondary ms-2">
+				<p className="text-secondary ms-2">
 					We're big fans of crypto (and yes, we will accept crypto) for many reasons, but one of them
 					is transparency. Have you ever bought something and wondered how the company came up with their price?
 					How much profit are they really making? We have! And we know it's annoying. Therefore, we want to be
@@ -49,7 +49,7 @@ export const AboutText = () => {
 
 					<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSc9MVPMC0K2xIIZaZgPc3jMuRlullCKOazLX9-3ZwCp7UGQ-pxShWO5aa3QgQxPCzEqShqlHy0-T-p/pubhtml?gid=0&single=true"
 					   target="_blank"
-					   class="text-primary ms-2"
+					   className="text-primary ms-2"
 					>
 						 View here
 					</a>
@@ -58,29 +58,32 @@ export const AboutText = () => {
 				
 			</p>
 
-			<h5 class="fw-normal">
+			<h5 className="fw-normal">
 				<strong>Our Roadmap: </strong> 
 			</h5>
-			<p class="fw-light ms-3">
-				<img src={Roadmap} alt="Roadmap" class="img-fluid w-75" />
+			<p className="fw-light ms-3">
+				<div class="col-12 col-md-8">
+					<img src={Roadmap} alt="Roadmap" className="img-fluid" />
+				</div>
+				
 			</p>
-			<h5 class="fw-normal">
+			<h5 className="fw-normal">
 				<strong>The Team: </strong> 
 			</h5>
-			<div class="row gy-3 gx-3">
+			<div className="row gy-3 gx-3">
 				{
 					EmployeeInfo.employeeList.map((employee, id) => (
-						<div class="col-4" key={id}>
+						<div className="col-12 col-md-6 col-xl-4" key={id}>
 							<EmployeeCard employee={employee} />
 						</div>
 					))
 				}
 			</div>
 
-			<h5 class="fw-normal mt-5">
+			<h5 className="fw-normal mt-5">
 				<strong>Background: </strong> 
 			</h5>
-			<p class="fw-light">
+			<p className="fw-light">
 				We launched this company in June 2021 because we were tired of soaring 
 				bike prices that made trying, buying, and owning bikes unaffordable (for us at least). 
 				With bikes and wheelsets that cost multiples of thousands, there's a pretty 
@@ -110,22 +113,22 @@ export const AboutText = () => {
 				
 			</p>
 
-			<h5 class="fw-strong">
+			<h5 className="fw-strong">
 				So, we leave you with a challenge &#8212;  
-				<span class="ms-2 text-success">
+				<span className="ms-2 text-success">
 				Bike More, Drive Less!
 				</span>
 			</h5>
 			<p><small> Seriously, do it for your health, do it for the planet, do it for your children, do it for your lasting legacy. </small></p>
 
 			<hr/>
-			<h5 class="fw-normal pt-5" id="contact">
+			<h5 className="fw-normal pt-5" id="contact">
 				<strong>Contact: </strong> 
 			</h5>
 			<ContactForm />
 
 		</div>
-	);
+    );
 }
 
 export default AboutText;

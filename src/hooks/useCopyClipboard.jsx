@@ -5,26 +5,26 @@ import copy from 'copy-to-clipboard';
 
 
 const useCopyClipboard = (timeout = 500) => {
-  const [isCopied, setIsCopied] = useState(false)
+    const [isCopied, setIsCopied] = useState(false)
 
-  const staticCopy = useCallback(text => {
-    const didCopy = copy(text)
-    setIsCopied(didCopy)
-  }, [])
+    const staticCopy = useCallback(text => {
+        const didCopy = copy(text)
+        setIsCopied(didCopy)
+    }, [])
 
-  useEffect(() => {
-    if (isCopied) {
-      const hide = setTimeout(() => {
-        setIsCopied(false)
-      }, timeout)
+    useEffect(() => {
+        if (isCopied) {
+            const hide = setTimeout(() => {
+                setIsCopied(false)
+            }, timeout)
 
-      return () => {
-        clearTimeout(hide)
-      }
-    }
-  }, [isCopied, setIsCopied, timeout])
+            return () => {
+                clearTimeout(hide)
+            }
+        }
+    }, [isCopied, setIsCopied, timeout])
 
-  return [isCopied, staticCopy]
+    return [isCopied, staticCopy]
 }
 
 

@@ -9,7 +9,7 @@ import { About, Home, Kits, Support } from "#pages";
 const App = () => {
   return (
     <Router>
-      <div className="App bg-light">
+      <div className="App bg-light ">
         <Header />
         <Switch>
           <Route path="/" exact component={() => <Home />} />

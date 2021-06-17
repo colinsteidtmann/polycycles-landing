@@ -1,17 +1,17 @@
 import React from "react";
 
 export const IconList = (props) => {
-	const {list, className} = props;
+    const { list, className } = props;
 
-	return (
-		<ul class={className || "fa-ul fw-light"}>
+    return (
+        <ul className={(className || "fa-ul fw-light") + " ms-1 ms-sm-auto"}>
 			{
 				list.map((obj, id) => (
-					<>
-						<li id={id}>
+					<React.Fragment key={id}>
+						<li>
 							{
 								obj.icons.map((icon, iconId) => (
-									<span class="me-2" id={iconId}>{icon}</span>
+									<span key={iconId} className="me-2">{icon}</span>
 								))
 							}
 							{obj.listText}
@@ -19,13 +19,13 @@ export const IconList = (props) => {
 
 						{
 							obj.subList && 
-							<ul class="fa-ul fw-light mb-2">
+							<ul className="fa-ul fw-light mb-2">
 								{
 									obj.subList.map((subObj, subId) => (
-										<li id={subId}>
+										<li key={subId}>
 											{
 												subObj.icons.map((subIcon, subIconId) => (
-													<span class="me-2" id={subIconId}>{subIcon}</span>
+													<span key={subIconId} className="me-2">{subIcon}</span>
 												))
 											}
 											{subObj.listText}
@@ -34,11 +34,11 @@ export const IconList = (props) => {
 								}
 							</ul>
 						}
-					</>
+					</React.Fragment>
 				))
 			}
 		</ul>
-	);
+    );
 }
 
 export default IconList;

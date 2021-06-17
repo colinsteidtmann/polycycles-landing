@@ -1,26 +1,25 @@
 import React from "react";
 // components
-import {SupportText, PageBanner} from "#components";
+import { SupportText, PageBanner } from "#components";
 
 export const About = () => {
-	return(
-		<>
-			<div class="m-3">
+    return (
+        <React.Fragment>
+			<div className="mx-1 m-lg-3">
 
 				<PageBanner
 					bgImg="bg-support-image"
 					text="Support PolyCycles"
-					cols="col-9"
+					cols="col-12 col-md-10 col-xl-9"
 				/>
 
-				<div class="row justify-content-center">
+				<div className="row justify-content-center">
 					<SupportText />
 				</div>
 				
 				
-			</div>
-		</>
-	);
+			</div> 
+		</React.Fragment>);
 }
 
 export default About;

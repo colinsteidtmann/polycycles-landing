@@ -1,19 +1,17 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export const LikeNothing = () => {
-	return (
-		<>
-		<div class="row pt-5 justify-content-center mb-5">
-			<h3 class="fw-normal align-self-center py-2">
+    return ( <React.Fragment>
+        <div className="row justify-content-center">
+			<h3 className="fw-normal align-self-center py-2 py-md-0">
 				Not Seeing Anything You Like?
 			</h3>
 			<span>
-				<Link to="/about#contact" type="button" class="btn btn-outline-primary btn-lg">Let Us Know!</Link>
+				<Link to="/about#contact" className="btn btn-outline-primary btn-lg">Let Us Know!</Link>
 			</span>
-		</div>
-		</>
-	);
+		</div> </React.Fragment>
+    );
 }
 
 export default LikeNothing;

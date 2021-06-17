@@ -1,60 +1,44 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 // components
-import {HomeBanner, HomeDescription, KitRowCard, LikeNothing} from "#components";
-import {RaceKit, PerformanceKit, SportKit, CommuterKit, FamilyKit, ShortTermKit} from "#constants";
+import { HomeBanner, HomeDescription, KitRowCard, LikeNothing } from "#components";
+import { RaceKit, PerformanceKit, SportKit, CommuterKit, FamilyKit, ShortTermKit } from "#constants";
 
 
 export const Home = () => {
-	return(
-		<>
-			<div class="m-3">
+    return ( <React.Fragment>
+        <div className="mx-1 m-lg-3">
 
 				<HomeBanner />
 				<HomeDescription />
 
-				<div class="row justify-content-center py-5 gy-3">
+				<div className="row justify-content-center py-5 gy-3">
 
-					<h4 class="fw-bold text-center my-4">
+					<h4 className="fw-bold text-center my-4">
 						Main Kits
 					</h4>
 
-					<div class="col-9">
-						<KitRowCard kit={RaceKit} />
-					</div>
+					<KitRowCard kit={RaceKit} />
+					<KitRowCard kit={PerformanceKit} />
+					<KitRowCard kit={SportKit} />
+					<KitRowCard kit={CommuterKit} />
 
-					<div class="col-9">
-						<KitRowCard kit={PerformanceKit} />
-					</div>
-
-					<div class="col-9">
-						<KitRowCard kit={SportKit} />
-					</div>
-
-					<div class="col-9 mb-5">
-						<KitRowCard kit={CommuterKit} />
-					</div>
-
-					<h4 class="fw-bold text-center my-4">
+					<br/>
+					<h4 className="fw-bold text-center my-4 pt-3">
 						Special Kits
 					</h4>
 
-					<div class="col-9">
-						<KitRowCard kit={FamilyKit} special={true} />
-					</div>
-
-					<div class="col-9">
-						<KitRowCard kit={ShortTermKit} special={true} />
-					</div>
+					<KitRowCard kit={FamilyKit} special={true} />
+					<KitRowCard kit={ShortTermKit} special={true} />
 
 				</div>
 
+				<br/><br/>
 				<LikeNothing />
 				
 				
-			</div>
-		</>
-	);
+			</div> </React.Fragment>
+    );
 }
 
 export default Home;
