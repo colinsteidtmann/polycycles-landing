@@ -733,7 +733,7 @@ export const WhoItsFor = {
     {
       listText: (
         <>
-          <strong>Adventurers </strong> who want to try multiple bike
+          <strong>Adventurers </strong> who want to try multiple bike 
           generes(road, gravel, mountain).
         </>
       ),
