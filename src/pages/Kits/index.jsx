@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // components
 import { PageBanner, KitColumnCard, LikeNothing } from "#components";
 // constants

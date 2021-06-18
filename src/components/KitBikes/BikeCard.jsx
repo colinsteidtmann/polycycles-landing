@@ -36,7 +36,7 @@ export const BikeCard = (props) => {
 			  <img 
 			  	src={img} 
 			  	className="card-img-top" 
-			  	alt="Bike image"
+			  	alt="Bike"
 			  />
 
 			  <div className="card-body">

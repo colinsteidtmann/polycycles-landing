@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // Components
-import { Share, Subscribe, IconList } from "#components";
+import { Share, Subscribe } from "#components";
 // Other impoerts
 import { FontIcons } from "#constants"
 

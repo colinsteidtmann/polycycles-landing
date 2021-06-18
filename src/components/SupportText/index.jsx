@@ -25,7 +25,7 @@ export const SupportText = () => {
 			<h5 className="fw-normal">
 				<strong>Hiring: </strong>
 			</h5>
-			<p className="fw-light ms-3">
+			<div className="fw-light ms-3">
 				We have a tiny team right now so we could use all the help we can get. But 
 				specifically we need: 
 
@@ -45,7 +45,7 @@ export const SupportText = () => {
 				</ul>
 
 				Volunteers and interns are very welcomed. Come and get some real startup experience!
-			</p>
+			</div>
 
 			<h5 className="fw-normal">
 				<strong>Investors: </strong>

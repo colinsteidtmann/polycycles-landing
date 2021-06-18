@@ -780,7 +780,7 @@ export const CompanyInfo = {
     {
       listText: (
         <>
-          <a href="https://www.facebook.com/colinsteidtmann" target="_blank">
+          <a href="https://discord.gg/skcfCKFeRh" target="_blank" rel="noreferrer">
             Discord
           </a>
         </>
@@ -790,7 +790,7 @@ export const CompanyInfo = {
     {
       listText: (
         <>
-          <a href="https://www.strava.com/athletes/24708059" target="_blank">
+          <a href="https://www.strava.com/athletes/24708059" target="_blank" rel="noreferrer">
             Facebook
           </a>
         </>
@@ -800,7 +800,7 @@ export const CompanyInfo = {
     {
       listText: (
         <>
-          <a href="https://www.facebook.com/colinsteidtmann" target="_blank">
+          <a href="https://www.facebook.com/colinsteidtmann" target="_blank" rel="noreferrer">
             Twitter
           </a>
         </>
@@ -834,7 +834,7 @@ gravel, but mountain biking scares him.`,
               <a
                 href="https://www.strava.com/athletes/24708059"
                 className="link-primary"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 @colinsteidtmann
               </a>
@@ -849,7 +849,7 @@ gravel, but mountain biking scares him.`,
               <a
                 href="https://www.facebook.com/colinsteidtmann"
                 className="link-primary"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 @colinsteidtmann
               </a>

@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactForm, ExpensesSpreadsheet } from "#components";
+import { ContactForm } from "#components";
 import EmployeeCard from "./EmployeeCard.jsx";
 import { EmployeeInfo } from "#constants";
 import { Roadmap } from "#images/About";
@@ -25,7 +25,7 @@ export const AboutText = () => {
 			<h5 className="fw-normal">
 				<strong>Our Values: </strong> 
 			</h5>
-			<p className="fw-light ms-3">
+			<div className="fw-light ms-3">
 				Sustainability
 				<p className="text-secondary ms-2">
 					Helping fight climate change and air pollution is a fundamental reason
@@ -48,7 +48,7 @@ export const AboutText = () => {
 					as transparent as we can, starting with a spreadsheet showing all of our business costs so far. 
 
 					<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSc9MVPMC0K2xIIZaZgPc3jMuRlullCKOazLX9-3ZwCp7UGQ-pxShWO5aa3QgQxPCzEqShqlHy0-T-p/pubhtml?gid=0&single=true"
-					   target="_blank"
+					   target="_blank" rel="noreferrer"
 					   className="text-primary ms-2"
 					>
 						 View here
@@ -56,17 +56,17 @@ export const AboutText = () => {
 				</p> 
 				
 				
-			</p>
+			</div>
 
 			<h5 className="fw-normal">
 				<strong>Our Roadmap: </strong> 
 			</h5>
-			<p className="fw-light ms-3">
-				<div class="col-12 col-md-8">
+			<div className="fw-light ms-3">
+				<div className="col-12 col-md-8">
 					<img src={Roadmap} alt="Roadmap" className="img-fluid" />
 				</div>
 				
-			</p>
+			</div>
 			<h5 className="fw-normal">
 				<strong>The Team: </strong> 
 			</h5>
@@ -119,7 +119,7 @@ export const AboutText = () => {
 				Bike More, Drive Less!
 				</span>
 			</h5>
-			<p class="fw-light ms-3"><small> Seriously, do it for your health, do it for the planet, do it for your children, do it for your lasting legacy. </small></p>
+			<p className="fw-light ms-3"><small> Seriously, do it for your health, do it for the planet, do it for your children, do it for your lasting legacy. </small></p>
 
 			<hr/>
 			<h5 className="fw-normal pt-5" id="contact">

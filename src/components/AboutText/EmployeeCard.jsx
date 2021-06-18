@@ -9,7 +9,7 @@ export const EmployeeCard = (props) => {
 				src={employee.profilePic} 
 				className="card-img-top" 
 				alt="..." 
-				style={{ "min-height": "30vh", objectFit: "cover" }}
+				style={{ "minHeight": "30vh", objectFit: "cover" }}
 			/>
 			<div className="card-body">
 				<h5 className="card-title fw-normal">

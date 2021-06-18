@@ -39,7 +39,7 @@ export const FormikContact = (props) => {
 			}) => (
 				<Form noValidate onSubmit={handleSubmit} >
 
-					<Form.Group className="mb-3 text-start" controlId="NameInput">
+					<Form.Group className="mb-3 text-start" controlId="name">
 						<Form.Label>Your Name</Form.Label>
 						<Form.Control 
 							type="text"
@@ -55,7 +55,7 @@ export const FormikContact = (props) => {
 						</Form.Text>
 					</Form.Group>
 
-					<Form.Group className="mb-3 text-start" controlId="EmailInput">
+					<Form.Group className="mb-3 text-start" controlId="email">
 						<Form.Label>Email</Form.Label>
 						<Form.Control 
 							type="text"
@@ -74,7 +74,7 @@ export const FormikContact = (props) => {
 						</Form.Text>
 					</Form.Group>
 
-					<Form.Group className="mb-3 text-start" controlId="EmailInput">
+					<Form.Group className="mb-3 text-start" controlId="message">
 						<Form.Label>Message</Form.Label>
 						<Form.Control 
 							as="textarea"

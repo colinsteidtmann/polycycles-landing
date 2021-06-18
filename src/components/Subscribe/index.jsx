@@ -14,7 +14,7 @@ export const Subscribe = () => {
 				{
 					displayState === formStatuses.FORM ? 
 						<div className="input-group justify-content-center">
-							<input type="email" className="form-control" id="emailInput" placeholder="name@example.com" onChange={(e) => {setEmail(e.target.value)}} />
+							<input type="email" className="form-control" placeholder="name@example.com" onChange={(e) => {setEmail(e.target.value)}} />
 						  	<button 
 						  		className="btn btn-primary" 
 						  		type="button" id="subscribe" 

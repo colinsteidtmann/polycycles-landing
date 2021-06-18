@@ -7,7 +7,7 @@ import logo from "#images/Brand/logo_transparent_bike.png";
 
 export const Navbar = (props) => {
     return (
-        <div class="mx-0 mx-sm-3">
+        <div className="mx-0 mx-sm-3">
 			{/* ==== Main Navbar ==== */}
 			<nav className="navbar navbar-light bg-light">
 			  <div className="container-fluid ">
@@ -37,18 +37,18 @@ export const Header = () => {
 
         <Navbar>
 
-				<div class="col-12 col-sm-6 text-sm-start"> 
+				<div className="col-12 col-sm-6 text-sm-start"> 
 					<Link className="navbar-brand me-0" to="/">
 						PolyCycles
-						<img src={logo} className="ms-2" style={{"width":"2rem"}}/>
+						<img src={logo} alt="Company logo" className="ms-2" style={{"width":"2rem"}}/>
 					</Link>
 				</div>
 
-				<div class="col-12 col-sm-6 mt-3 mt-sm-0">
+				<div className="col-12 col-sm-6 mt-3 mt-sm-0">
 					<div className="d-flex justify-content-center justify-content-sm-end">
-						<Link className="nav-link text-dark px-sm-2" to="/kits">Kits</Link>
-						<Link className="nav-link text-dark px-sm-2" to="/about">About</Link>
-						<Link className="nav-link text-dark px-sm-2" to="/support">Support us</Link>
+						<Link className="nav-link text-dark px-sm-2 px-lg-3" to="/kits">Kits</Link>
+						<Link className="nav-link text-dark px-sm-2 px-lg-3" to="/about">About</Link>
+						<Link className="nav-link text-dark px-sm-2 px-lg-3" to="/support">Support us</Link>
 					</div>
 				</div>
 			</Navbar>

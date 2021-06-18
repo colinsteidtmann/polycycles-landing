@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 // components
 import KitInfoCard from "./KitInfoCard";
 import { BackButton, Accordian, IconList, KitBikes, LikeNothing, FeedbackForm, PageBanner, ScrollToTop } from "#components";
@@ -42,13 +42,13 @@ export const IndividualKit = () => {
 						<FeedbackForm />
 					</div>
 
-					<div class="col-12 col-lg-10 col-xl-9">
+					<div className="col-12 col-lg-10 col-xl-9">
 						<KitInfoCard 
 							kit={kit}
 						/>
 					</div>
 
-					<div class="col-12 col-lg-10 col-xl-9">
+					<div className="col-12 col-lg-10 col-xl-9">
 						<Accordian id="AllKits" flush={true}>
 							<Accordian.Item id="One">
 								<Accordian.Header>

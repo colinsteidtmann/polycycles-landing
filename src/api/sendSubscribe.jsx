@@ -2,7 +2,6 @@ import axios from "axios";
 
 export const sendSubscribe = async(props) => {
 	const {email} = props;
-	console.log("email", email)
 	try {
 		const response = await axios({
 			method: "post",

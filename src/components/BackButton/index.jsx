@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useHistory } from "react-router-dom";
 
 export const BackButton = (props) => {
-    const { to, onClick } = props;
+    const { to } = props;
     const history = useHistory();
     return (
         <div className="container-fluid row gx-0 gx-lg-auto">
