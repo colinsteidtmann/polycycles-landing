@@ -52,9 +52,13 @@ export const KitInfoCard = (props) => {
 
 					{
 						kit.price && 
-						<p className="fw-normal">
-							Kit cost: {kit.price}
-						</p>
+						<React.Fragment>
+							<p className="fw-normal">
+								Kit cost: {kit.price}
+							</p>
+							<small>*Prices are estimates right now</small>
+						</React.Fragment>
+
 					}
 				</div>
 			</div>

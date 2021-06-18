@@ -60,7 +60,7 @@ export const KitColumnCard = (props) => {
 							<Link to={kit.to} className="btn btn-primary float-end">View</Link>
 						</div>
 					</div>
-	
+					<small>*Prices are estimates right now</small>
 				</div>
 
 				<Link to={kit.to} className="stretched-link" />

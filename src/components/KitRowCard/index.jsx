@@ -55,7 +55,7 @@ export const KitRowCard = (props) => {
 	        				</button>
 
 	        			</div>
-
+	        			<small>*Prices are estimates right now</small>
 	        		</div>
 
 	        	</div>

@@ -16,7 +16,7 @@ export const FeedbackForm = () => {
 			  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMc2zwwiNfCMJ-Lp3qtAgc8ie3_cgzntwkjLsIDY1sho3H4Q/viewform?embedded=true" title="PolyCycles Feedback Form">Loading…</iframe>
 			</div>
 
-			<a href="https://forms.gle/WwU6kV7RfGMik88h9" target="_blank" class="text-primary float-start my-3">
+			<a href="https://forms.gle/WwU6kV7RfGMik88h9" target="_blank" class="text-primary float-start my-3 d-none d-lg-block">
 				Open form in new tab {FontIcons.externalLink}
 			</a>
 		</React.Fragment>

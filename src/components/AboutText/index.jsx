@@ -29,15 +29,15 @@ export const AboutText = () => {
 				Sustainability
 				<p className="text-secondary ms-2">
 					Helping fight climate change and air pollution is a fundamental reason
-					for our existence. We promise to leave as little as a footprint as we can. 
+					for why we started. We promise to leave as little as a footprint as we can. 
 					We will try to deliver bikes with bikes, use eco-friendly/biodegradable 
 					cleaning products, and minimize all packaging.
 				</p>
 				Inclusion
 				<p className="text-secondary ms-2">
 					Let's be honest. Bicycling, especially road cycling, is a pretty white, male 
-					dominated sport. It also tends to leave out those in lower economic classes. 
-					We promise to seek diverse team members, offer an affordable product, and support 
+					dominated sport. It tends to leave out those in lower economic classes. 
+					We promise to look for diverse team members, offer an affordable product, and support 
 					bicycling inclusion efforts. We want <em>as many people as possible</em> riding bikes.
 				</p>
 				Transparency
@@ -88,7 +88,7 @@ export const AboutText = () => {
 				bike prices that made trying, buying, and owning bikes unaffordable (for us at least). 
 				With bikes and wheelsets that cost multiples of thousands, there's a pretty 
 				high barrier to entry that makes it difficult to get a new bike or just try something new. 
-				Even if you do get a new bike, then you have to maintain it. Chain and cables will get worn out,
+				Even if you do get a new bike, then you have to maintain it. Chains and cables will get worn out,
 				shifting will get bad, brakes will get loose, and parts like your wheel spokes will break. Then 
 				you have to take it to a bike shop or fix it at home. But if you try fixing it at home, then not only do you have to 
 				buy the parts, but you also have to buy the tools, <em>and</em> it's going to take hours of time, <em>and </em>  

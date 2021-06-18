@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 // components
 import KitInfoCard from "./KitInfoCard";
-import { BackButton, Accordian, IconList, KitBikes, LikeNothing, FeedbackForm, PageBanner } from "#components";
+import { BackButton, Accordian, IconList, KitBikes, LikeNothing, FeedbackForm, PageBanner, ScrollToTop } from "#components";
 import { RaceKit, PerformanceKit, SportKit, CommuterKit, FamilyKit, ShortTermKit, AllKits, GeneralGuidelines } from "#constants";
 
 export const IndividualKit = () => {
@@ -23,7 +23,9 @@ export const IndividualKit = () => {
         kit = ShortTermKit;
     }
 
-    return ( <React.Fragment>
+    return ( 
+    	<React.Fragment>
+    	<ScrollToTop />
         <div className="mx-1 mx-sm-auto m-md-3">
 				<BackButton />
 

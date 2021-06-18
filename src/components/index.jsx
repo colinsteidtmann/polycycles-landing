@@ -17,6 +17,7 @@ export { default as LikeNothing } from "./LikeNothing/index";
 export { default as MailErrorDisplay } from "./MailErrorDisplay/index";
 export { default as MailSentDisplay } from "./MailSentDisplay/index";
 export { default as PageBanner } from "./PageBanner/index";
+export { default as ScrollToTop } from "./ScrollToTop/index";
 export { default as Subscribe } from "./Subscribe/index";
 export { default as SupportText } from "./SupportText/index";
 export { default as Share } from "./Share/index";
