@@ -67,7 +67,7 @@ export const AboutText = () => {
 				</div>
 				
 			</div>
-			<h5 className="fw-normal">
+{/*			<h5 className="fw-normal">
 				<strong>The Team: </strong> 
 			</h5>
 			<div className="row gy-3 gx-3">
@@ -78,7 +78,7 @@ export const AboutText = () => {
 						</div>
 					))
 				}
-			</div>
+			</div>*/}
 
 			<h5 className="fw-normal mt-5">
 				<strong>Background: </strong> 
