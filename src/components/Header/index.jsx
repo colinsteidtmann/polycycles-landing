@@ -4,10 +4,28 @@ import { Link } from "react-router-dom";
 // custom imports
 import logo from "#images/Brand/logo_transparent_bike.png";
 
+const TempBlogAlert = () => {
+	return (
+		<div className="alert alert-dismissible alert-secondary " role="alert">
+		  New blog posted!
+			<a 
+				href="https://colinsteidtmann.medium.com/polycycles-a-bike-subscription-service-f6dd71d5b726"
+				className="alert-link ms-2"
+				target="_blank"
+				rel="noreferrer"
+
+			>
+				PolyCycles — A Bike Subscription Service
+			</a>.
+			<button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+		</div>
+	);
+}
 
 export const Navbar = (props) => {
     return (
         <div className="mx-0 mx-sm-3">
+        	<TempBlogAlert />
 			{/* ==== Main Navbar ==== */}
 			<nav className="navbar navbar-light bg-light">
 			  <div className="container-fluid ">

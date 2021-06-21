@@ -85,6 +85,7 @@ export const FontIcons = {
   twitterSquare: <i className="fab fa-twitter-square text-info"></i>,
   discord: <i className="fab fa-discord text-secondary"></i>,
   envelope: <i className="fas fa-envelope text-secondary"></i>,
+  apartment: <i class="far fa-building text-secondary"></i>,
 };
 
 export const RaceBikes = [
@@ -359,6 +360,7 @@ const {
   facebookSquare,
   twitterSquare,
   discord,
+  apartment,
 } = FontIcons;
 
 export const RaceKit = {
@@ -734,7 +736,7 @@ export const WhoItsFor = {
       listText: (
         <>
           <strong>Adventurers </strong> who want to try multiple bike 
-          generes(road, gravel, mountain).
+          genres (road, gravel, mountain).
         </>
       ),
       icons: [binoculars],
@@ -771,6 +773,14 @@ export const WhoItsFor = {
         </>
       ),
       icons: [sun, leaf],
+    },
+    {
+      listText: (
+        <>
+          <strong>Apartment renters </strong> who don’t have room for multiple bikes.
+        </>
+      ),
+      icons: [apartment],
     },
   ],
 };

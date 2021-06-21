@@ -5,9 +5,9 @@ import { RaceKit, PerformanceKit, SportKit, CommuterKit, FamilyKit, ShortTermKit
 
 
 export const Home = () => {
-    return ( <React.Fragment>
+    return ( 
+    	<React.Fragment>
         <div className="mx-1 m-lg-3">
-
 				<HomeBanner />
 				<HomeDescription />
 
