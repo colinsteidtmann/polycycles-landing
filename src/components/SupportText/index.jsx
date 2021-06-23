@@ -47,7 +47,7 @@ export const SupportText = () => {
 				Volunteers and interns are very welcomed. Come and get some real startup experience!
 			</div>
 
-			<h5 className="fw-normal">
+			<h5 className="fw-normal mt-3">
 				<strong>Investors: </strong>
 			</h5>
 			<p className="fw-light ms-3">
