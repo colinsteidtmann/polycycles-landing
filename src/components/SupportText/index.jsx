@@ -44,7 +44,7 @@ export const SupportText = () => {
 					</li>
 				</ul>
 
-				Volunteers and interns are very welcomed. Come and get some real startup experience!
+				Volunteers and interns are very welcomed. Come and get some real startup experience! Contact careers@polycycles.com.
 			</div>
 
 			<h5 className="fw-normal mt-3">
