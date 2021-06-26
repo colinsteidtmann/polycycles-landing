@@ -24,8 +24,8 @@ const TempBlogAlert = () => {
 
 export const Navbar = (props) => {
     return (
-        <div className="mx-0 mx-sm-3">
-        	<TempBlogAlert />
+        <div className="mx-0 px-sm-3">
+        	
 			{/* ==== Main Navbar ==== */}
 			<nav className="navbar navbar-light bg-light">
 			  <div className="container-fluid ">
@@ -53,7 +53,7 @@ export const Navbar = (props) => {
 export const Header = () => {
     return ( <React.Fragment>
 
-        <Navbar>
+        <Navbar >
 
 				<div className="col-12 col-sm-6 text-sm-start"> 
 					<Link className="navbar-brand me-0" to="/">
@@ -64,9 +64,11 @@ export const Header = () => {
 
 				<div className="col-12 col-sm-6 mt-3 mt-sm-0">
 					<div className="d-flex justify-content-center justify-content-sm-end">
-						<Link className="nav-link text-dark px-sm-2 px-lg-3" to="/kits">Kits</Link>
-						<Link className="nav-link text-dark px-sm-2 px-lg-3" to="/about">About</Link>
-						<Link className="nav-link text-dark px-sm-2 px-lg-3" to="/support">Support us</Link>
+						<Link className="btn btn-outline-dark d-none d-sm-block mx-sm-2 mx-lg-3" to="/newListing">List a Bike</Link>
+						<Link className="nav-link text-dark d-block d-sm-none mx-sm-2 mx-lg-3" to="/newListing">List a Bike</Link>
+						<Link className="nav-link text-dark px-sm-2 px-lg-3" to="/bikes">View Bikes</Link>
+						<Link className="nav-link text-dark px-sm-2 px-lg-3" to="/help">Help</Link>
+
 					</div>
 				</div>
 			</Navbar>

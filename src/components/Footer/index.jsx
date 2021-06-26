@@ -1,27 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // Components
-import { Share, Subscribe } from "#components";
+import { ShareButtons, Subscribe } from "#components";
 // Other impoerts
-import { FontIcons } from "#constants"
+import { FontIcons } from "#constants/icons"
 
 export const Footer = (props) => {
-    return ( <React.Fragment>
-        <div className="row justify-content-center gy-3 gy-md-0 mt-5 mx-md-3 ">
-				<div className="col-10 col-md-5">
-					<p className="text-center fs-5 fw-normal mb-0">Share!</p>
-					<Share />
-				</div>
-				<div className="col-10 col-md-5">
-					<p className="text-center fs-5 fw-normal mb-2">Subscribe to stay updated</p>
-					<Subscribe/>
-				</div>
-				
-				
-			</div>
-
-        <
-        footer className = "pt-5" >
+    return ( 
+    <React.Fragment>
+       <footer >
         <div className="container-fluid py-5 bg-dark">
 
 					<div className="row mx-0 mx-xl-4">
@@ -31,16 +18,16 @@ export const Footer = (props) => {
 						<div className="col-12  col-lg-4 col-xl-2 mb-3 text-start">
 							<span className="fw-light text-secondary">Product</span>							
 							<div className="navbar-nav">
-								<Link className="nav-link text-light py-0" to="/kits">Kits</Link>
-								<Link className="nav-link text-light py-0" to="/updates">Updates</Link>
+								<Link className="nav-link text-light py-0" to="/newListing">List a bike</Link>
+								<Link className="nav-link text-light py-0" to="/bikes">View bikes</Link>
 							</div>
 						</div>
 
 						<div className="col-12  col-lg-4 col-xl-2 mb-3 text-start">
 							<span className="fw-light text-secondary">Company</span>							
 							<div className="navbar-nav">
-								<Link className="nav-link text-light py-0" to="/kits">About</Link>
-								<Link className="nav-link text-light py-0" to="/up">Support</Link>
+								<Link className="nav-link text-light py-0" to="/help">Help</Link>
+								<Link className="nav-link text-light py-0" to="/terms">Terms and conditions</Link>
 							</div>
 						</div>
 
@@ -64,7 +51,7 @@ export const Footer = (props) => {
 							<p className="fw-light text-secondary">Get Updates</p>
 							<Subscribe />
 							<p className="fw-light text-secondary pt-3 mb-0">Share on social media</p>
-							<Share />
+							<ShareButtons color="text-light" />
 						</div>
 
 

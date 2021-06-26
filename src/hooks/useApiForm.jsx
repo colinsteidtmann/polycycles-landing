@@ -1,23 +1,25 @@
 import { useState } from "react";
 // Constants
-import { formStatuses } from "#constants";
+import { FormStatuses } from "#constants/forms";
+import {useGeneralStore} from "#hooks";
 
 export const useApiForm = (apiFn) => {
     const [loading, setLoading] = useState(false);
-    const [displayState, setDisplayState] = useState(formStatuses.FORM);
+    const formStatus = useGeneralStore(state => state.formStatus);
+    const setFormStatus = useGeneralStore(state => state.setFormStatus);
 
     const handleSubmit = async (inputs) => {
         setLoading(true);
         const response = await apiFn(inputs);
         if (response.status === 200) {
-            setDisplayState(formStatuses.SENT);
+            setFormStatus(FormStatuses.SENT);
         } else {
-            setDisplayState(formStatuses.ERROR);
+            setFormStatus(FormStatuses.ERROR);
         }
         setLoading(false);
     }
 
-    return { loading, handleSubmit, displayState, setDisplayState };
+    return { loading, handleSubmit, formStatus, setFormStatus };
 };
 
 export default useApiForm;

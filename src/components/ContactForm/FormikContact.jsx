@@ -44,6 +44,7 @@ export const FormikContact = (props) => {
 						<Form.Control 
 							type="text"
 							name="name"
+							className="bg-transparent"
 							value={values.name}
 							onChange={handleChange}
 							onBlur={handleBlur}
@@ -60,6 +61,7 @@ export const FormikContact = (props) => {
 						<Form.Control 
 							type="text"
 							name="email"
+							className="bg-transparent"
 							value={values.email}
 							onChange={handleChange}
 							onBlur={handleBlur}
@@ -80,6 +82,7 @@ export const FormikContact = (props) => {
 							as="textarea"
 							rows={5}
 							name="message"
+							className="bg-transparent"
 							value={values.message}
 							onChange={handleChange}
 							onBlur={handleBlur}
@@ -94,7 +97,7 @@ export const FormikContact = (props) => {
 						</Form.Text>
 					</Form.Group>
 
-					<button type="submit" className="btn btn-primary btn-lg mt-3">
+					<button type="submit" className="btn btn-dark btn-lg mt-3">
 						{
 							(loading) ?
 							<React.Fragment> 

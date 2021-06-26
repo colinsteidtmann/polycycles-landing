@@ -1,22 +1,25 @@
 import '#app/App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Components
-import { Header, Footer, IndividualKit } from "#components";
+import { Header, Footer } from "#components";
+import ApiToastUpdate from "./ApiToastUpdate";
 // Pages
-import { About, Home, Kits, Support } from "#pages";
+import { Home, Bikes, BikeDetails, Help, NewListing, Terms } from "#pages";
 
 
 const App = () => {
   return (
     <Router>
       <div className="App bg-light ">
+        <ApiToastUpdate />
         <Header />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
-          <Route path="/about" exact component={() => <About />} />
-          <Route path="/support" exact component={() => <Support />} />
-          <Route path="/kits" exact component={() => <Kits />} />
-          <Route path="/kits/:kitType" exact component={() => <IndividualKit />} />
+          <Route path="/bikes" exact component={() => <Bikes />} />
+          <Route path="/bikes/:id" exact component={() => <BikeDetails />} />
+          <Route path="/newListing" exact component={() => <NewListing />} />
+          <Route path="/help" exact component={() => <Help />} />
+          <Route path="/terms" exact component={() => <Terms />} />
         </Switch>
         <Footer />
       </div>

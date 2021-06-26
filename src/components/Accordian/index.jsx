@@ -28,7 +28,7 @@ const Item = (props) => {
     });
 
     return (
-        <div className="accordion-item bg-transparent border-bottom border-2 ">
+        <div className="accordion-item bg-transparent border-bottom-1 border-top-0 border-start-0 border-end-0  ">
 			{childrenWithProps}
 		</div>
     );
