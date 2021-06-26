@@ -3,11 +3,11 @@
         "Timestamp": "2021/06/25 2:55:20 PM MDT",
         "Bike Type": "Mountain",
         "Images": [
-            "https://drive.google.com/thumbnail?id=1u5YADxbiEiOUZeLxm7uuy3uOSVKJIFXh",
-            "https://drive.google.com/thumbnail?id=1sDUPIEpdZxuOG2l3TNehZ5ud8ffTKYYn",
-            "https://drive.google.com/thumbnail?id=1cLONYRfIHz31n0zqY3wI3MfZcHY4JtYv",
-            "https://drive.google.com/thumbnail?id=1GrMLusWHTFvAWlcT2t1lnJbFgizdvwMD",
-            "https://drive.google.com/thumbnail?id=1igh0Ohlrg_CZnCb6AdP6SCA5VM5SLC2g"
+            "https://drive.google.com/uc?export=view&id=1u5YADxbiEiOUZeLxm7uuy3uOSVKJIFXh",
+            "https://drive.google.com/uc?export=view&id=1sDUPIEpdZxuOG2l3TNehZ5ud8ffTKYYn",
+            "https://drive.google.com/uc?export=view&id=1cLONYRfIHz31n0zqY3wI3MfZcHY4JtYv",
+            "https://drive.google.com/uc?export=view&id=1GrMLusWHTFvAWlcT2t1lnJbFgizdvwMD",
+            "https://drive.google.com/uc?export=view&id=1igh0Ohlrg_CZnCb6AdP6SCA5VM5SLC2g"
         ],
         "Cockpit Condition": "9",
         "Drivetrain Condition": "9",
@@ -60,12 +60,12 @@
         "Timestamp": "2021/06/25 3:03:06 PM MDT",
         "Bike Type": "TT/Triathlon",
         "Images": [
-            "https://drive.google.com/thumbnail?id=1dupebnW5DVEh0C0v0saMNW9YUSjehe4G",
-            "https://drive.google.com/thumbnail?id=1khhqPm8gvUUXlZcNqf8PKpQByIJEQfMQ",
-            "https://drive.google.com/thumbnail?id=1KJy8iUpISjSSaKcfofofTJVnoqLJqGpA",
-            "https://drive.google.com/thumbnail?id=1Lys935X7xS1itMTgtCVXHsy8HhnjXt-w",
-            "https://drive.google.com/thumbnail?id=1c3oP89AsxWns1ErppQl8E7AFpdzYCqTr",
-            "https://drive.google.com/thumbnail?id=1eoHwYpRFNwNpDEj7iG0f7S0Azrm3yJhM"
+            "https://drive.google.com/uc?export=view&id=1dupebnW5DVEh0C0v0saMNW9YUSjehe4G",
+            "https://drive.google.com/uc?export=view&id=1khhqPm8gvUUXlZcNqf8PKpQByIJEQfMQ",
+            "https://drive.google.com/uc?export=view&id=1KJy8iUpISjSSaKcfofofTJVnoqLJqGpA",
+            "https://drive.google.com/uc?export=view&id=1Lys935X7xS1itMTgtCVXHsy8HhnjXt-w",
+            "https://drive.google.com/uc?export=view&id=1c3oP89AsxWns1ErppQl8E7AFpdzYCqTr",
+            "https://drive.google.com/uc?export=view&id=1eoHwYpRFNwNpDEj7iG0f7S0Azrm3yJhM"
         ],
         "Cockpit Condition": "9",
         "Drivetrain Condition": "9",
@@ -118,13 +118,13 @@
         "Timestamp": "2021/06/25 3:07:46 PM MDT",
         "Bike Type": "Cyclocross",
         "Images": [
-            "https://drive.google.com/thumbnail?id=1tUVjEwTnXhbEe2FnQfCfPeX9Gx-DyB6x",
-            "https://drive.google.com/thumbnail?id=1IckW7JPSn-3jCCQzpJ9wkVYnNW_9X5HN",
-            "https://drive.google.com/thumbnail?id=1Muw0006O6H3gIZ2QdBBgB84_uRA_iZPg",
-            "https://drive.google.com/thumbnail?id=1Y6tsfHx3gWyhL3na_h4G5LbXifAHCELj",
-            "https://drive.google.com/thumbnail?id=1BWr9WW87gxYDvjuAPCag9e7V7wu2HZAb",
-            "https://drive.google.com/thumbnail?id=1kNpoRW3rviXhs0A501x5QCNJxLzz40u8",
-            "https://drive.google.com/thumbnail?id=1ZWOzSICHbMiJgrDxvqRIerkPpddqXb1t"
+            "https://drive.google.com/uc?export=view&id=1tUVjEwTnXhbEe2FnQfCfPeX9Gx-DyB6x",
+            "https://drive.google.com/uc?export=view&id=1IckW7JPSn-3jCCQzpJ9wkVYnNW_9X5HN",
+            "https://drive.google.com/uc?export=view&id=1Muw0006O6H3gIZ2QdBBgB84_uRA_iZPg",
+            "https://drive.google.com/uc?export=view&id=1Y6tsfHx3gWyhL3na_h4G5LbXifAHCELj",
+            "https://drive.google.com/uc?export=view&id=1BWr9WW87gxYDvjuAPCag9e7V7wu2HZAb",
+            "https://drive.google.com/uc?export=view&id=1kNpoRW3rviXhs0A501x5QCNJxLzz40u8",
+            "https://drive.google.com/uc?export=view&id=1ZWOzSICHbMiJgrDxvqRIerkPpddqXb1t"
         ],
         "Cockpit Condition": "9",
         "Drivetrain Condition": "8",
@@ -177,11 +177,11 @@
         "Timestamp": "2021/06/25 3:55:24 PM MDT",
         "Bike Type": "Road",
         "Images": [
-            "https://drive.google.com/thumbnail?id=17kfB5bHP3Mc-ZKzzsGymA-7XxW1U4Vvs",
-            "https://drive.google.com/thumbnail?id=1ICbR3F5NnywMCzD1AEtlEuouVHC3EvHg",
-            "https://drive.google.com/thumbnail?id=1Wiz3cgVb95m5qeDCi-RFDK1K7b4QXqKn",
-            "https://drive.google.com/thumbnail?id=1fx-IbBzi-uQZJF733rplk50dLovRZ_aa",
-            "https://drive.google.com/thumbnail?id=1Gr1MCy7WnGUnWvXKxVCH1NR68IWlfN7W"
+            "https://drive.google.com/uc?export=view&id=17kfB5bHP3Mc-ZKzzsGymA-7XxW1U4Vvs",
+            "https://drive.google.com/uc?export=view&id=1ICbR3F5NnywMCzD1AEtlEuouVHC3EvHg",
+            "https://drive.google.com/uc?export=view&id=1Wiz3cgVb95m5qeDCi-RFDK1K7b4QXqKn",
+            "https://drive.google.com/uc?export=view&id=1fx-IbBzi-uQZJF733rplk50dLovRZ_aa",
+            "https://drive.google.com/uc?export=view&id=1Gr1MCy7WnGUnWvXKxVCH1NR68IWlfN7W"
         ],
         "Cockpit Condition": "9",
         "Drivetrain Condition": "9",
@@ -234,14 +234,14 @@
         "Timestamp": "2021/06/25 4:01:49 PM MDT",
         "Bike Type": "Gravel",
         "Images": [
-            "https://drive.google.com/thumbnail?id=1Sd0VjLmhtM07BAy2JiIb7_4rgOkBs13a",
-            "https://drive.google.com/thumbnail?id=1q1bJWX0H5KvC729U_o0hfIJuJNHNQJrG",
-            "https://drive.google.com/thumbnail?id=1PvuTbw4CNGq9Tlr8tTpPoxarv1zbPXqE",
-            "https://drive.google.com/thumbnail?id=1yyH4JII7LxpQJbqgRM3PrTQtsAEwHA0k",
-            "https://drive.google.com/thumbnail?id=1B7cgw_TMOz06uAKN9izFa7_snPMTzrwu",
-            "https://drive.google.com/thumbnail?id=1jyv849blFKkZctbwznLFk_mSCZFzgATy",
-            "https://drive.google.com/thumbnail?id=1CklehDBuU9R9gcw4gpsrtYEhiXy4tNom",
-            "https://drive.google.com/thumbnail?id=1qQGir6oH80mULUaL9n956ZHFe5bzY3qm"
+            "https://drive.google.com/uc?export=view&id=1Sd0VjLmhtM07BAy2JiIb7_4rgOkBs13a",
+            "https://drive.google.com/uc?export=view&id=1q1bJWX0H5KvC729U_o0hfIJuJNHNQJrG",
+            "https://drive.google.com/uc?export=view&id=1PvuTbw4CNGq9Tlr8tTpPoxarv1zbPXqE",
+            "https://drive.google.com/uc?export=view&id=1yyH4JII7LxpQJbqgRM3PrTQtsAEwHA0k",
+            "https://drive.google.com/uc?export=view&id=1B7cgw_TMOz06uAKN9izFa7_snPMTzrwu",
+            "https://drive.google.com/uc?export=view&id=1jyv849blFKkZctbwznLFk_mSCZFzgATy",
+            "https://drive.google.com/uc?export=view&id=1CklehDBuU9R9gcw4gpsrtYEhiXy4tNom",
+            "https://drive.google.com/uc?export=view&id=1qQGir6oH80mULUaL9n956ZHFe5bzY3qm"
         ],
         "Cockpit Condition": "7",
         "Drivetrain Condition": "8",
@@ -294,13 +294,13 @@
         "Timestamp": "2021/06/25 4:06:21 PM MDT",
         "Bike Type": "E-Bike",
         "Images": [
-            "https://drive.google.com/thumbnail?id=1e1-VJiI1CezyW5GMuWi3bIcnNnnUpH3v",
-            "https://drive.google.com/thumbnail?id=1OeWYwsktU0BmhHuEl2bAu7ZG39Q2fa_i",
-            "https://drive.google.com/thumbnail?id=1UmpXbfKzr1UOtHmEP0Cd5h2CBVqHL3dt",
-            "https://drive.google.com/thumbnail?id=1kQRjkyG6J1HzHHuUPQUqYu1IXKLqDbI_",
-            "https://drive.google.com/thumbnail?id=1bURqzE7V-N1JZnaSo9f4eedlf1KeJUuj",
-            "https://drive.google.com/thumbnail?id=1xIGW8-5n5lu1Xcejm8vjKVnGeeoA_4CW",
-            "https://drive.google.com/thumbnail?id=1nTghJOpSKssWnmrohNAfOgQyCIJa3TZz"
+            "https://drive.google.com/uc?export=view&id=1e1-VJiI1CezyW5GMuWi3bIcnNnnUpH3v",
+            "https://drive.google.com/uc?export=view&id=1OeWYwsktU0BmhHuEl2bAu7ZG39Q2fa_i",
+            "https://drive.google.com/uc?export=view&id=1UmpXbfKzr1UOtHmEP0Cd5h2CBVqHL3dt",
+            "https://drive.google.com/uc?export=view&id=1kQRjkyG6J1HzHHuUPQUqYu1IXKLqDbI_",
+            "https://drive.google.com/uc?export=view&id=1bURqzE7V-N1JZnaSo9f4eedlf1KeJUuj",
+            "https://drive.google.com/uc?export=view&id=1xIGW8-5n5lu1Xcejm8vjKVnGeeoA_4CW",
+            "https://drive.google.com/uc?export=view&id=1nTghJOpSKssWnmrohNAfOgQyCIJa3TZz"
         ],
         "Cockpit Condition": "9",
         "Drivetrain Condition": "9",
@@ -353,13 +353,13 @@
         "Timestamp": "2021/06/25 4:10:53 PM MDT",
         "Bike Type": "Fat Bike",
         "Images": [
-            "https://drive.google.com/thumbnail?id=1DKm9pPyPuU-_O9Ra06BLBzjn7LJGc7hf",
-            "https://drive.google.com/thumbnail?id=13YE7rEm13orZ5cu_plBCK5C2WfIxAlMo",
-            "https://drive.google.com/thumbnail?id=1dno2RNS3t2bRJdwKUzHzF9Gz08tdPlgw",
-            "https://drive.google.com/thumbnail?id=19mcXnnqTq2uqzxTY_MeTCcI8LUcAe-2F",
-            "https://drive.google.com/thumbnail?id=1wfNzYW-P6Mn3GZ6bCY_39_Zwta0jA1wI",
-            "https://drive.google.com/thumbnail?id=1KekpxRee0aLUQrAAchuqv15waQac_F9b",
-            "https://drive.google.com/thumbnail?id=1OE7_FHBZZH4qHWyKk_Xh-CFtO6CPvJkJ"
+            "https://drive.google.com/uc?export=view&id=1DKm9pPyPuU-_O9Ra06BLBzjn7LJGc7hf",
+            "https://drive.google.com/uc?export=view&id=13YE7rEm13orZ5cu_plBCK5C2WfIxAlMo",
+            "https://drive.google.com/uc?export=view&id=1dno2RNS3t2bRJdwKUzHzF9Gz08tdPlgw",
+            "https://drive.google.com/uc?export=view&id=19mcXnnqTq2uqzxTY_MeTCcI8LUcAe-2F",
+            "https://drive.google.com/uc?export=view&id=1wfNzYW-P6Mn3GZ6bCY_39_Zwta0jA1wI",
+            "https://drive.google.com/uc?export=view&id=1KekpxRee0aLUQrAAchuqv15waQac_F9b",
+            "https://drive.google.com/uc?export=view&id=1OE7_FHBZZH4qHWyKk_Xh-CFtO6CPvJkJ"
         ],
         "Cockpit Condition": "9",
         "Drivetrain Condition": "8",
@@ -412,11 +412,11 @@
         "Timestamp": "2021/06/25 4:14:29 PM MDT",
         "Bike Type": "Commuter",
         "Images": [
-            "https://drive.google.com/thumbnail?id=18N2CXUR6106Ceata1CqsllffPVjrZUX-",
-            "https://drive.google.com/thumbnail?id=1l24DLrLhc33reOtlY3voqByQKjkaNm8a",
-            "https://drive.google.com/thumbnail?id=1pfaqr2hiTGJKOIJFdPmUYNVkPSP4N4lU",
-            "https://drive.google.com/thumbnail?id=1fFKGCwbv3z3Ig52JVu9HFXV-uKIeiiE9",
-            "https://drive.google.com/thumbnail?id=1RiTDD9oHuZnxIXJoyiuMszhZAJotR6Zx"
+            "https://drive.google.com/uc?export=view&id=18N2CXUR6106Ceata1CqsllffPVjrZUX-",
+            "https://drive.google.com/uc?export=view&id=1l24DLrLhc33reOtlY3voqByQKjkaNm8a",
+            "https://drive.google.com/uc?export=view&id=1pfaqr2hiTGJKOIJFdPmUYNVkPSP4N4lU",
+            "https://drive.google.com/uc?export=view&id=1fFKGCwbv3z3Ig52JVu9HFXV-uKIeiiE9",
+            "https://drive.google.com/uc?export=view&id=1RiTDD9oHuZnxIXJoyiuMszhZAJotR6Zx"
         ],
         "Cockpit Condition": "9",
         "Drivetrain Condition": "9",
@@ -469,13 +469,13 @@
         "Timestamp": "2021/06/25 4:18:06 PM MDT",
         "Bike Type": "Touring",
         "Images": [
-            "https://drive.google.com/thumbnail?id=1NlFUHzpZON9kaVvrJYZ0BOVCIu8PYoQI",
-            "https://drive.google.com/thumbnail?id=10hjo1KcaSDI7u-MqlNBKyN3cELVZi2Ql",
-            "https://drive.google.com/thumbnail?id=1iah_raVXe_2o4pl5KK0NWhtzIwhos3wv",
-            "https://drive.google.com/thumbnail?id=1_9JRxB9DkNS9HXu--yLr6f47UOaucKuA",
-            "https://drive.google.com/thumbnail?id=1T375zkEAm2nCSaS7r7QN2Vl9PJdlYfaA",
-            "https://drive.google.com/thumbnail?id=1aOQC1Vy4oXH5ve8HoLL_erj8cyV2O4qj",
-            "https://drive.google.com/thumbnail?id=1pLGZ1zRNsLJkBmD76dyfx4lLOpdyBBKE"
+            "https://drive.google.com/uc?export=view&id=1NlFUHzpZON9kaVvrJYZ0BOVCIu8PYoQI",
+            "https://drive.google.com/uc?export=view&id=10hjo1KcaSDI7u-MqlNBKyN3cELVZi2Ql",
+            "https://drive.google.com/uc?export=view&id=1iah_raVXe_2o4pl5KK0NWhtzIwhos3wv",
+            "https://drive.google.com/uc?export=view&id=1_9JRxB9DkNS9HXu--yLr6f47UOaucKuA",
+            "https://drive.google.com/uc?export=view&id=1T375zkEAm2nCSaS7r7QN2Vl9PJdlYfaA",
+            "https://drive.google.com/uc?export=view&id=1aOQC1Vy4oXH5ve8HoLL_erj8cyV2O4qj",
+            "https://drive.google.com/uc?export=view&id=1pLGZ1zRNsLJkBmD76dyfx4lLOpdyBBKE"
         ],
         "Cockpit Condition": "9",
         "Drivetrain Condition": "9",

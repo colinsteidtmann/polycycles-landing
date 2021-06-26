@@ -7,15 +7,15 @@ import logo from "#images/Brand/logo_transparent_bike.png";
 const TempBlogAlert = () => {
 	return (
 		<div className="alert alert-dismissible alert-secondary " role="alert">
-		  New blog posted!
+		  New blog posted! 
 			<a 
-				href="https://colinsteidtmann.medium.com/polycycles-a-bike-subscription-service-f6dd71d5b726"
+				href="https://colinsteidtmann.medium.com/polycycles-relaunches-e4c5760a23c6"
 				className="alert-link ms-2"
 				target="_blank"
 				rel="noreferrer"
 
 			>
-				PolyCycles — A Bike Subscription Service
+				PolyCycles Relaunches
 			</a>.
 			<button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 		</div>
@@ -25,7 +25,7 @@ const TempBlogAlert = () => {
 export const Navbar = (props) => {
     return (
         <div className="mx-0 px-sm-3">
-        	
+        	<TempBlogAlert />
 			{/* ==== Main Navbar ==== */}
 			<nav className="navbar navbar-light bg-light">
 			  <div className="container-fluid ">

@@ -15,14 +15,13 @@ export const BikeGallery = (props) => {
 
     return ( 
     	<React.Fragment>
-    		<div class="px-1 px-lg-5">
-				<div class="row">
-					<h1 class="text-center fw-light pb-0 pb-lg-2">
+				<div class="row my-2">
+					<h1 class="text-center fw-light">
 					    Bikes For Rent
 					</h1>
 				</div>
 
-				<div class="row py-1 py-lg-3">
+				<div class="row my-2">
 					<div class="col-12 text-end">
 						<div class="dropdown">
 						  <button class="btn btn-ouline-secondary dropdown-toggle" type="button" id="filterBikes" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,7 +39,7 @@ export const BikeGallery = (props) => {
 
 				</div>
 
-				<div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+				<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-5">
 					{
 						bikeListingsFiltered.length > 0 ?
 							bikeListingsFiltered.map((bike, id) => (
@@ -57,7 +56,6 @@ export const BikeGallery = (props) => {
 							<p class="fw-strong mx-auto">No bikes of this type.</p>
 					}
 				</div>
-			</div>
 		</React.Fragment>
     );
 }

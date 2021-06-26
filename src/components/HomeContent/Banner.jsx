@@ -6,7 +6,7 @@ import {b1} from "#images/Backgrounds";
 export const Banner = () => {
 	return (
 		<React.Fragment>
-			<div class="row justify-content-center my-4 mx-4">
+			<div class="row justify-content-center my-4 mx-2 mx-md-4">
 
 
 			    <div class="col-12 col-md-11 col-lg-6 text-start">

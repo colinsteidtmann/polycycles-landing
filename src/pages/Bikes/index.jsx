@@ -8,7 +8,7 @@ import {BikeGallery} from "#components";
 export const Bikes = () => {
     return ( 
     	<React.Fragment>
-        	<div className="mx-1 m-lg-3">
+        	<div className="mx-1 mx-sm-5 my-3">
 
                 <BikeGallery />
 

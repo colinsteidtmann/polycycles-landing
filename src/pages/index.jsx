@@ -1,4 +1,3 @@
-export { default as About } from "./About/index";
 export { default as Home } from "./Home/index";
 export { default as NewListing } from "./NewListing/index";
 export { default as Bikes } from "./Bikes/index";

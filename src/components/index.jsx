@@ -5,6 +5,7 @@ export { default as Carousel } from "./Carousel/index";
 export { default as ContactForm } from "./ContactForm/index";
 export { default as DetailsContent } from "./DetailsContent/index";
 export { default as Footer } from "./Footer/index";
+export { default as GoogleForm } from "./GoogleForm/index";
 export { default as Header } from "./Header/index";
 export { default as ListingContent } from "./ListingContent/index";
 export { default as ShareButtons } from "./ShareButtons/index";

@@ -1,8 +1,7 @@
 import React from "react";
 import {useParams, Link} from "react-router-dom";
 // components
-import {BackButton, Carousel, Accordian} from "#components";
-import RentalForm from "./RentalForm";
+import {BackButton, Carousel, Accordian, GoogleForm} from "#components";
 import {AvailabilityOptions} from "#constants/bikes";
 const BikeListings = require("#data/BikeListingForm");
 
@@ -38,10 +37,10 @@ const BikeComponent = (props) => {
         <li className="list-group-item bg-transparent">
 
             <div className="row text-start ">
-                <div className="col-12 col-md-4">
+                <div className="col-6 ">
                     <strong>{label}</strong>
                 </div>
-                <div className="col-12 col-md-8">
+                <div className="col-6 text-end ">
                     {info}
                 </div>
             </div>
@@ -55,18 +54,18 @@ export const DetailsContent = () => {
     const bike = BikeListings.find(bike => bike["id"] == id);
     return ( 
     	<React.Fragment>
-            <div class="ps-2 ps-lg-5">
+            <div class="ms-2 ms-lg-5">
                 <BackButton />
             </div>
 
-            <div class="row pb-4">
+            <div class="row py-2">
                 <h1 class="text-center fw-normal">
                     Bikes Details
                 </h1>
             </div>
 
-            <div class="row justify-content-center pb-4">
-                <div class="col-10 col-lg-6 border">
+            <div class="row justify-content-center py-2">
+                <div class="col-11 col-lg-6 border ">
                     <div class="col-12 col-sm-8 col-lg-6 mx-auto">
                         <Carousel 
                             id="bikeDetails"
@@ -94,18 +93,11 @@ export const DetailsContent = () => {
                                     Availability
                                 </Accordian.Header>
                                 <Accordian.Body>
-                                    <ul className="list-group list-group-flush">
-
-                                        <BikeComponent 
-                                            label="Availability"
-                                            info={
-                                                <AvailabilityButtons
-                                                    availabilityList={bike["Availability"]}
-                                                />
-                                            }
+                                    <div class="text-start">
+                                        <AvailabilityButtons
+                                            availabilityList={bike["Availability"]}
                                         />
-
-                                    </ul>
+                                    </div>
                                 </Accordian.Body>
                             </Accordian.Item>
                             <Accordian.Item id="1">
@@ -401,7 +393,7 @@ export const DetailsContent = () => {
                 </div>
             </div>
 
-            <div class="row pt-4">
+            <div class="row my-4">
                 <h1 class="text-center fw-normal">
                     Rent It
                 </h1>
@@ -409,7 +401,7 @@ export const DetailsContent = () => {
 
 
             <div class="row justify-content-center">
-                <div class="col-11 col-lg-6 ">
+                <div class="col-10 col-lg-6">
                     <p class="text-start fw-normal">
                         Fill out the form below to rent this bike. Once we and the owner approve the rental we'll pick it up from them and deliver it to you. Before we deliver the bike, we'll inspect it to make sure that it's in good working order. When the rental duration ends, we'll pick the bike up from you, inspect it again, and do any service work. Besides normal wear and tear, the renter has to pay for us to clean and fix the bike if necessary. We will price match guarantee. 
                     </p>
@@ -421,11 +413,11 @@ export const DetailsContent = () => {
             </div>
 
 
-            <div class="row justify-content-center pb-4">
-                <div class="col-12 col-sm-10">
-                    <RentalForm />
-                </div>
-            </div>
+            <GoogleForm
+                webUrl="https://forms.gle/mU6DhNVxuE14HYXb6"
+                iframeUrl="https://docs.google.com/forms/d/e/1FAIpQLSddG5jzhsj4jOr7ElDy6XPjBSf3qv3V4SqkuyawiVjG34WOHA/viewform?embedded=true"
+                title="Rental Form"
+            />
         
 		</React.Fragment>
     );

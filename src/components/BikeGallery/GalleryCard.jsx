@@ -23,13 +23,13 @@ const BikeComponent = (props) => {
 const GalleryCard = (props) => {
     const {id, image, title, size, type, price} = props;
     return (
-        <div class="col ">
+        <div class="col">
             <div class="card bg-transparent h-100">
               <img 
                 src={image} 
                 class="card-img-top" 
                 alt="Bike photo"
-                style={{"height":"35vh", "objectFit":"cover"}}
+                style={{"height":"auto", "objectFit":"cover"}}
                 />
                 <div class="card-body">
                     <h5 class="card-title">
@@ -62,7 +62,7 @@ const GalleryCard = (props) => {
                     </div>
                 </div>
 
-                <div class="row pt-3">
+                <div class="row mt-3">
                     <div class="col text-start">
                         <Link to={`/bikes/${id}`} class="btn btn-dark">View</Link>
                     </div>

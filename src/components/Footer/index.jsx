@@ -34,9 +34,30 @@ export const Footer = (props) => {
 						<div className="col-12  col-lg-4 col-xl-2 mb-3 text-start">
 							<span className="fw-light text-secondary">Socials</span>
 							<div className="navbar-nav text-light">
-								<Link className="nav-link text-light py-0" to="/kits">{FontIcons.facebookSquare} Facebook</Link>
-								<Link className="nav-link text-light py-0" to="/kits">{FontIcons.twitterSquare} Twitter</Link>
-								<Link className="nav-link text-light py-0" to="/kits">{FontIcons.discord} Discord</Link>
+								<a 
+									className="nav-link text-light py-0" 
+									href="https://twitter.com/polycycles"
+									target="_blank" 
+									rel="noreferrer"
+								>
+									{FontIcons.facebookSquare} Facebook
+								</a>
+								<a 
+									className="nav-link text-light py-0" 
+									href="https://twitter.com/polycycles"
+									target="_blank" 
+									rel="noreferrer"
+								>
+									{FontIcons.twitterSquare} Twitter
+								</a>
+								<a 
+									className="nav-link text-light py-0" 
+									href="https://discord.gg/skcfCKFeRh"
+									target="_blank" 
+									rel="noreferrer"
+								>
+									{FontIcons.discord} Discord
+								</a>
 							</div>
 						</div>
 
