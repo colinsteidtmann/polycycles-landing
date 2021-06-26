@@ -403,11 +403,11 @@ export const DetailsContent = () => {
             <div class="row justify-content-center">
                 <div class="col-10 col-lg-6">
                     <p class="text-start fw-normal">
-                        Fill out the form below to rent this bike. Once we and the owner approve the rental we'll pick it up from them and deliver it to you. Before we deliver the bike, we'll inspect it to make sure that it's in good working order. When the rental duration ends, we'll pick the bike up from you, inspect it again, and do any service work. Besides normal wear and tear, the renter has to pay for us to clean and fix the bike if necessary. We will price match guarantee. 
+                        Fill out the form below to rent this bike. Once the owner approve the rental then we'll pick it up and deliver it to you. Before delivery, we'll inspect it to make sure that it's in good working order. When the rental duration ends, we'll pick the bike up, inspect it again, and do any service work. Besides normal wear and tear, the renter has to pay us to clean and fix the bike if necessary. We will price match guarantee with surrounding bike shops and be transparent about the work needed and performed. We also can provide discounted riding accessories and bike fits. If anything goes wrong while renting or if you have questions, then please contact us at <a className="fw-normal text-dark" href="mailto:friends@polycycles.com"> friends@polycycles.com</a> and we'll come take a look. 
                     </p>
 
                     <p class="text-start fw-normal">
-                        Total cost: Rental charge + deliver and pickup (varies) + any service work
+                        Total cost: Rental charge + delivery and pickup (varies) + any service work done after the rental period.
                     </p>
                 </div>
             </div>
