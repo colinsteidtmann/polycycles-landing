@@ -5,12 +5,14 @@ import {Accordian} from "#components";
 export const FAQ = () => {
 	return (
 		<React.Fragment>
-			<div class="row py-4 py-lg-5">
+
+			<div class="row my-5">
 			    <h1 class="text-center fw-light">
 			        FAQ
 			    </h1>
 			</div>
-			<div class="row justify-content-center pb-5">
+
+			<div class="row justify-content-center mb-5">
 			    <div class="col-12 col-md-9 col-lg-6">
 			        <Accordian id={"faq-accordian"} flush={true}>
 			        	<Accordian.Item id="0">

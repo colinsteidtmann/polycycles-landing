@@ -53,6 +53,14 @@ ul.dashed > li:before {
   align-items: flex-end;
 }
 
+@media (min-width: 1200px) {
+  .btn-xl-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+  }
+}
+
 
 
 

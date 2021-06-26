@@ -26,7 +26,7 @@ const StepCard = (props) => {
 export const Steps = () => {
 	return (
 		<React.Fragment>
-			<div class="row py-4 py-lg-5" id="learn">
+			<div class="row my-5" id="learn">
 			    <h1 class="text-center fw-light">
 			        Three easy steps
 			    </h1>

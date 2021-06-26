@@ -11,19 +11,19 @@ export const Footer = () => {
 	const { loading, handleSubmit } = useApiForm(sendSubscribe);
 	return (
 		<React.Fragment>
-			<div class="row row-cols-1 row-cols-md-2 px-2 mt-0 p-lg-5 mt-lg-5">
-			    <div class="col mb-5 mb-lg-0">
+			<div class="justify-content-center row row-cols-1 row-cols-md-2 row-cols-lg-3 mx-3 pt-5">
+			    <div class="col mx-auto mb-5">
 			        <h3 class="text-center fw-light">
 			            Share us on social media
 			        </h3>
 			        <ShareButtons/>
 			    </div>
 
-			    <div class="col">
+			    <div class="col mx-auto">
 			        <h3 class="text-center fw-light">
 			            Subscribe for updates
 			        </h3>
-			        <div class="input-group form-floating mb-5">
+			        <div class="input-group form-floating ">
 			            <input 
 			                type="email" 
 			                class="form-control bg-transparent border-top-0 border-end-0 border-start-0 border-bottom-1" 
@@ -52,7 +52,7 @@ export const Footer = () => {
 			        </div>
 			    </div>
 			</div>
-			<div class="row mb-5">
+			<div class="row my-5 mx-3">
 				<h3 class="text-center fw-light">
 				    Have a question? 
 				    <Link to="/help" class="ms-3 text-secondary">
