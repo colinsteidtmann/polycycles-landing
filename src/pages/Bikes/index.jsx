@@ -2,7 +2,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 // Components
 import {BikeGallery} from "#components";
-import {GainD30} from "#images/Performance";
 
 
 
