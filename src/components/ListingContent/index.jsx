@@ -12,7 +12,7 @@ export const ListingContent = () => {
 			</div>
 
 			<div class="row justify-content-center">
-			    <div class="col-6 ">
+			    <div class="col-10 col-lg-6 ">
 			        <p class="text-start fw-normal">
 			            Fill out the form below to list your bike. We'll review it and post it for you. If someone rents the bike, then we'll come out to pick it up and deliver it. When we pick it up, we'll inspect the bike to see if it needs any cleaning, repairs, or tuneups. The owner has to pay for any service work that we do but we'll offer a price match guarantee and give you a detailed report of the work we did. If you don't ride the bike between rentals then there shouldn't be a need for us to do any service work on it.
 			        </p>
@@ -24,7 +24,7 @@ export const ListingContent = () => {
 			</div>
 
 			<div class="row justify-content-center">
-			    <div class="col-10 ">
+			    <div class="col-12 col-sm-10 ">
 			        <ListingForm/>
 			    </div>
 			</div>
