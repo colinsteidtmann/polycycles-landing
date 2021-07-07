@@ -9,13 +9,14 @@ const TempBlogAlert = () => {
 		<div className="alert alert-dismissible alert-secondary " role="alert">
 		  New blog posted! 
 			<a 
-				href="https://colinsteidtmann.medium.com/polycycles-relaunches-e4c5760a23c6"
+				href="https://colinsteidtmann.medium.com/can-bikes-be-investable-assets-cb4e92483b10"
 				className="alert-link ms-2"
 				target="_blank"
 				rel="noreferrer"
 
 			>
-				PolyCycles Relaunches
+				Can Bikes Be Investable Assets?
+
 			</a>.
 			<button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 		</div>
