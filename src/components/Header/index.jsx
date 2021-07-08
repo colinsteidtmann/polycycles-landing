@@ -15,7 +15,7 @@ const TempBlogAlert = () => {
 				rel="noreferrer"
 
 			>
-				Can Bikes Be Investable Assets?
+				Can Bikes Be Investible Assets?
 
 			</a>.
 			<button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
